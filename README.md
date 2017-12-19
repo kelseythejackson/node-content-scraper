@@ -1,4 +1,4 @@
-# node-content-scraper
+# Node Content Scraper
 A simple content scraper built in NodeJS
 
 ## Prerequisites
