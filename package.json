@@ -7,9 +7,27 @@
     "start": "node scraper.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kelseythejackson/node-content-scraper.git"
+  },
+  "keywords": [
+    "mike the frog",
+    "Node",
+    "Scraper"
+  ],
+  "author": "Kelsey Jackson",
+  "license": "MIT",
   "devDependencies": {
+    "json2csv": "^3.11.5",
+    "scrape-it": "^4.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/kelseythejackson/node-content-scraper/issues"
+  },
+  "homepage": "https://github.com/kelseythejackson/node-content-scraper#readme",
+  "dependencies": {
+    "himalaya": "^1.0.0",
     "json2csv": "^3.11.5",
     "scrape-it": "^4.1.0"
   }

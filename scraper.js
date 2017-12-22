@@ -81,7 +81,7 @@ scrapeIt('http://www.shirts4mike.com/shirts.php', { // Scrapes the initial entry
                     csvData.push(shirt);
                     const csv = json2csv({ data: csvData, fields: fields });
                     const date = new Date();
-                    fs.writeFile(`./data/${date.getFullYear()}-${date.getMonth()}-${date.getDate()}.csv`, csv, function (err) {
+                    fs.writeFile(`./data/${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}.csv`, csv, function (err) {
                         if (err) throw err;
                     });
                 });
