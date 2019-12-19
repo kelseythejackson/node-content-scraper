@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/kelseythejackson/node-content-scraper#readme",
   "dependencies": {
+    "chalk": "^3.0.0",
     "himalaya": "^1.0.0",
     "json2csv": "^3.11.5",
     "scrape-it": "^4.1.0"

@@ -2,13 +2,13 @@
 A simple content scraper built in NodeJS
 
 ## Prerequisites
-* Git
 * Node
 
 ## Installation
 * `git clone https://github.com/kelseythejackson/node-content-scraper.git`
 * `cd node-content-scraper`
+* `npm install`
 
 ## Running
-* `npm start`
+* To start the scraper, simply run `npm start`
 
