@@ -19,7 +19,7 @@
   "author": "Kelsey Jackson",
   "license": "MIT",
   "devDependencies": {
-    "json2csv": "^3.11.5",
+    "json2csv": "^5.0.7",
     "scrape-it": "^4.1.0"
   },
   "bugs": {
@@ -29,7 +29,7 @@
   "dependencies": {
     "chalk": "^3.0.0",
     "himalaya": "^1.0.0",
-    "json2csv": "^3.11.5",
+    "json2csv": "^5.0.7",
     "scrape-it": "^4.1.0"
   }
 }
